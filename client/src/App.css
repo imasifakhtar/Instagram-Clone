@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Poppins&display=swap");
+
+a {
+  color: #000 !important;
+}
+
+.brand-logo,
+h2 {
+  font-family: "Grand Hotel", cursive;
+}
+
+.mycard {
+  margin-top: 30px;
+}
+
+.auth-card {
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid rgb(66, 165, 245) !important;
+  box-shadow: 0 1px 0 0 rgb(66, 165, 245) !important;
+}
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid rgb(66, 165, 245) !important;
+  box-shadow: 0 1px 0 0 rgb(66, 165, 245) !important;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery img {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.home-card {
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+}
+
+.unlike {
+  color: red;
+  transition: 0.2s;
+}
+
+.btn-follow {
+  margin: 10px 0;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-transform: none;
+  /* width: 50%; */
+}
+.btn-unfollow {
+  margin: 10px 0;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-transform: none;
+  color: #000;
+  /* width: 50%; */
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
+
+.usernameHome {
+  padding: 5px 8px;
+}
